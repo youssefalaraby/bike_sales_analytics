@@ -100,16 +100,6 @@ bike-share-analytics/
 │       ├── bike_share_yr_1.csv        # 2022 hourly ride data (17,468 rows)
 │       └── cost_table.csv             # Pricing & COGS per year
 │
-├── 📂 docs/
-│   └── 📂 screenshots/
-│       ├── dashboard_overview.png     # Full dashboard screenshot
-│       ├── kpi_cards.png              # KPI cards section
-│       ├── revenue_trend.png          # Monthly revenue trend visual
-│       └── architecture_diagram.png  # Data architecture diagram
-│
-├── 📂 assets/
-│   └── architecture.png               # Medallion architecture diagram
-│
 └── README.md
 ```
 
@@ -308,10 +298,7 @@ JOIN silver.cost_table c ON s.year = CASE c.yr WHEN 0 THEN 2021 WHEN 1 THEN 2022
 
 **Youssef** — Data Analyst & Computer Engineering Student  
 Mansoura University, Egypt  
-📧 [Your Email]  
-🔗 [Your LinkedIn]  
-🐙 [Your GitHub]
-
+📧 [youssefalaraby531@gmail.com]  
 ---
 
 ## 📄 License
