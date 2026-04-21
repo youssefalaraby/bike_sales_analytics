@@ -256,19 +256,6 @@ JOIN silver.cost_table c ON s.year = CASE c.yr WHEN 0 THEN 2021 WHEN 1 THEN 2022
 | Total Rides | `SUM(riders)` |
 | Avg Revenue Per Ride | `DIVIDE(SUM(revenue), SUM(riders))` |
 
-### Visuals
-
-| Visual | Type | X-Axis | Y-Axis / Values |
-|---|---|---|---|
-| Monthly Revenue Trend | Line Chart | Month | Revenue (2021 vs 2022) |
-| Revenue by Season | Bar Chart | Season | Revenue |
-| Hourly Demand | Line Chart | Hour | Avg Riders |
-| Casual vs Registered | Donut Chart | Rider Type | Total Riders |
-| Demand by Day of Week | Bar Chart | Day of Week | Total Riders |
-| Weather Impact | Bar Chart | Weather | Total Riders |
-| Profit by Season | Bar Chart | Season | Profit |
-
----
 
 ## 💡 Key Insights Preview
 
